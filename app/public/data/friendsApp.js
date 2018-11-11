@@ -1,4 +1,5 @@
-module.exports.tutors = [
+alert('hello');
+const tutorsList = [
     {
         'name': 'Ahmed',
         'scores':[
@@ -30,3 +31,5 @@ module.exports.tutors = [
         ]
     },
 ];
+
+console.log(tutorsList)

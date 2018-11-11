@@ -1,0 +1,36 @@
+
+body{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(77, 141, 141) !important;
+}
+
+.jumbotron h1{
+    color: rgb(77, 141, 141) !important;
+}
+
+
+a button{
+    color: white;
+    background-color: rgb(77, 141, 141) !important;
+}
+
+a button:hover{
+    color: black;
+    background-color: rgb(77, 141, 141) !important;
+}
+
+.navbar{
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.navbar span{
+    margin: auto;
+    color: rgb(77, 141, 141) !important;
+    font-size: 36px;
+}
+
+div .form-check{
+    display: inline;
+}

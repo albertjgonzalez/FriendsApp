@@ -27,7 +27,7 @@ a button{
 
 a button:hover{
     color: rgb(112,72,166) !important;
-    background-color: rgba(244, 161, 93, 0.75) !important;
+    background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
 .submit{
@@ -40,7 +40,7 @@ a button:hover{
 
 .submit:hover{
     color: rgb(244,230,93) !important;
-    background-color: rgb(56,146,146, 0.75) !important;
+    background-color: rgb(0, 0, 0, 0.1) !important;
 }
 
 .navbar{
@@ -58,6 +58,8 @@ a button:hover{
     font-weight: 900;
     display: block;
 }
+
+
 
 div .form-check{
     display: inline;
@@ -95,4 +97,11 @@ input.input{
 
 .modal-content{
     background-color: rgb(244,161,93) !important;
+}
+
+.modal-header{
+    border-bottom: solid rgba(0, 0, 0, 0.1) 5px;
+}
+.modal-footer{
+    border-top: solid rgba(0, 0, 0, 0.1) 5px;
 }

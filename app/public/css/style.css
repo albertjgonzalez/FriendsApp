@@ -2,35 +2,97 @@
 body{
     text-align: center;
     width: 100%;
-    background-color: rgb(77, 141, 141) !important;
+    background-color: rgb(56,146,146) !important;
+    font-family: 'KoHo', sans-serif;
+    font-weight: 90;
 }
 
 .jumbotron h1{
-    color: rgb(77, 141, 141) !important;
+    color: rgb(112,72,166) !important;
+    font-size: 80px;
+    font-weight: 900;
+    font-family: 'Kumar One Outline', cursive;
 }
 
+.jumbotron{
+    background-color: rgb(244,161,93) !important;
+    border-bottom: solid rgba(0, 0, 0, 0.1) 5px;
+}
 
 a button{
-    color: white;
-    background-color: rgb(77, 141, 141) !important;
+    color: rgb(244,230,93) !important;
+    font-weight: 90;
+    background-color: rgb(56,146,146) !important;
 }
 
 a button:hover{
-    color: black;
-    background-color: rgb(77, 141, 141) !important;
+    color: rgb(112,72,166) !important;
+    background-color: rgba(244, 161, 93, 0.75) !important;
+}
+
+.submit{
+    position: relative;
+    left: -45px;
+    font-weight: 90;
+    color: rgb(112,72,166) !important;
+    background-color: rgb(244,161,93) !important;
+}
+
+.submit:hover{
+    color: rgb(244,230,93) !important;
+    background-color: rgb(56,146,146, 0.75) !important;
 }
 
 .navbar{
     text-align: center;
-    background-color: aliceblue;
+    background-color: rgb(244,161,93) !important;
+    border-bottom: solid rgba(0, 0, 0, 0.1) 5px;
+    margin-bottom: 2%;
 }
 
-.navbar span{
+.navbar span{ 
     margin: auto;
-    color: rgb(77, 141, 141) !important;
-    font-size: 36px;
+    color: rgb(112,72,166) !important;
+    font-family: 'Kumar One Outline', cursive;
+    font-size: 60px;
+    font-weight: 900;
+    display: block;
 }
 
 div .form-check{
     display: inline;
+}
+
+input.input{
+    margin: auto;
+    width:40%;
+}
+
+.content{
+    width: 60%;
+    margin: auto;
+}
+
+#middle-form{
+    position: relative;
+    left:6px;
+    color: rgb(244,230,93) !important;
+    font-size: 16px;
+    margin-bottom: 5%;
+}
+#bottom-form{
+    position: relative;
+    left:100px;
+}
+
+#myModal{
+
+    background-color: rgb(56,146,146) !important;
+}
+#myModal h4{
+    color: rgb(244,230,93) !important;
+}
+
+.modal-content{
+    background-color: rgb(244,161,93) !important;
 }
